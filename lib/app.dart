@@ -1,3 +1,4 @@
+import 'package:choob_khat/pages/main.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -12,7 +13,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => Scaffold(),
+        '/': (context) => MainPage(),
       },
     );
   }
